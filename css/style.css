@@ -196,12 +196,12 @@ section.header-bg-parent {
 
 .header-col2 {
     float: right;
-    background-image: url(../images/african-american-businessman-using-laptop-posing-isolated-white-wall.jpg);
+    background-image: url(../images/ui-ux-designers-isometric-composition-with-small-people-creating-custom-design-web-site-3d-vector-illustration.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    width: 55%;
+    width: 45%;
 }
 #menu.show {
     display: flex;
