@@ -16,7 +16,7 @@ body{
 }
 
 section{
-    padding:2rem 7%;
+    padding:2rem 3%;
     font-size: 92.5%;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -83,13 +83,14 @@ h4,
 h5,
 h6 {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
+    font-weight: 200;
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
+    font-weight: 100;
     color: #161676;
+    word-spacing: normal;
 }
 
 #arrow i {
@@ -216,7 +217,7 @@ section.header-bg-parent {
 
 .header-col3 {
     float: right;
-    background-image: url(../images/developer_male.jpg);
+    background-image: url('images/member-grants-scholarships-removebg-preview.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,15 +225,7 @@ section.header-bg-parent {
     width: 45%;
 }
 
-.header-col2 {
-    float: right;
-    background-image: url(../images/ui-ux-designers-isometric-composition-with-small-people-creating-custom-design-web-site-3d-vector-illustration.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 45%;
-}
+
 #menu.show {
     display: flex;
     color: #0041c2;
