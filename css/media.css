@@ -69,6 +69,13 @@
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.5);
     }
+    .header-col3 {
+        float: none;
+        height: 100vh;
+        width: 100%;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
     .header-col1 h5 {
         color: #fff;
@@ -76,7 +83,7 @@
     }
 
     .header-col1 h2 {
-        color: #fff;
+        color: #eaebf0;
         font-size: 36px;
         line-height: 50px;
         margin: 0px;
@@ -341,3 +348,45 @@
     }
 
 }
+
+@media (max-width:768px){
+
+    #menu{
+      display: initial;
+    }
+  
+    header .navbar{
+      position: absolute;
+      top:100%; left:0; right:0;
+      background:#fff;
+      border-top: .1rem solid rgba(0,0,0,.2);
+      border-bottom: .1rem solid rgba(0,0,0,.2);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+  
+    header .navbar.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  
+    header .navbar a{
+      font-size: 2.5rem;
+      display: block;
+      margin:2rem 0;
+      text-align:center;
+    }
+  
+    .contact form .inputBox input{
+      width:100%;
+    }
+  
+  }
+  
+  @media (max-width:400px){
+  
+    html{
+      font-size: 50%;
+    }
+  
+  } 
+
+  
