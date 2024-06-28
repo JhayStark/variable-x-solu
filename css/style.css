@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #e3e8e9;
     color: #2132ad;
@@ -70,12 +71,12 @@ h4,
 h5,
 h6 {
     font-family: 'sans-serif';
-    font-weight: 800;
+    font-weight: 200;
 }
 
 p {
     font-family: 'sans-serif';
-    font-weight: 400;
+    font-weight: 100;
     color: #161676;
 }
 
